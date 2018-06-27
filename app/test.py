@@ -4,11 +4,6 @@ import json
 import logging
 import pdb
 
-consumer_key = 'N3S8Iqxs15M4PNL8RSBUNYRvw'
-consumer_secret = 'ViqFj6AliUTcae2Tms9rmdafKDGjpUj7Q11AVzRkvvpWAnvrQ3'
-access_token = '1008836471908962304-bj3p94LDbUnfuGbYVM5tf9FGLYulmm'
-access_token_secret = 'G26ZeLhT6ofba216yxFR6K2GRDulRNHrer4dxQjbrdXsw'
-
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
